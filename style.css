@@ -1,0 +1,14 @@
+body{
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+.header{
+
+    text-align: center;
+    padding:3px 0px;
+}
+h1{
+    font-size: 70px;
+}
