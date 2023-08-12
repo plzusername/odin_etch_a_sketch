@@ -20,19 +20,23 @@ button:hover{
     text-align: center;
 }
 h1{
-    font-size: 65px;
+    font-size: 75px;
+    margin: 0;
+    margin-bottom: 16px;
 }
 .main-body{
-    max-width:1000px ;
+    max-width:1100px ;
     display:flex;
     margin: 0 auto;
     align-items: center;
+    justify-content: flex-start;
+    gap:100px;
 }
 .grid-container{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 300px;
+    width: 550px;
     background-color: white;
-    height: 400px;
+    height: 550px;
 
 }
 #colorPicker{
