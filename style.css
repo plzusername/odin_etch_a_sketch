@@ -3,6 +3,8 @@ body{
     color: var(--primary-dark);
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    height: 100vh;
+    margin: 0;
 }
 .header{
 
@@ -11,4 +13,10 @@ body{
 }
 h1{
     font-size: 70px;
+}
+.main-body{
+    max-width:1000px ;
+    display:flex;
+    margin: 0 auto;
+    align-items: center;
 }
