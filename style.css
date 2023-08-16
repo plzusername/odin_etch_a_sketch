@@ -11,8 +11,12 @@ body{
     height: 100vh;
     margin: 0;
 }
+.mode.active{
+    color: #ededed;
+    background-color: #333;
+}
 button:hover{
-    scale: 1.05;
+    scale: 1.05;    
 }
 .header{
     text-align: center;
@@ -45,6 +49,8 @@ h1{
     gap:100px;
 }
 .grid-container{
+    display: flex;
+    flex-wrap: wrap;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 550px;
     background-color: white;
@@ -87,7 +93,4 @@ button{
     justify-content: space-between;
     height:460px;
     text-align: center;
-}
-input:hover, button:hover{
-    cursor: pointer;
 }
